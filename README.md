@@ -1,2 +1,15 @@
-# To-Do_list
-This is a To Do list made using the OOP principles such as Single Responsibility Principle, the SOLID principle and the Loosely coupled objects 
+# 🚀 Welcome to your new awesome project!
+
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
