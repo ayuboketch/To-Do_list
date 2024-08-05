@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <button id="add-task-btn">Add Task</button>
+                <ul id="task-list">
+                    <li>Take out the trash</li>
+                    <li>Buy groceries</li>
+                    <!-- Sample notes can be added here -->
+                </ul>
+            </div>
+            <div class="main">
+                <div id="task-details">
+                    <h2>Task Details</h2>
+                    <textarea
+                        id="task-content"
+                        placeholder="Write your tasks here..."
+                    ></textarea>
+                </div>
+                <div class="task-options">
+                    <button id="add-btn">Add</button>
+                    <button id="edit-btn">Edit</button>
+                    <button id="delete-btn">Delete</button>
+                    <button id="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("service-worker.js")
+                    .then((registration) => {
+                        console.log(
+                            "Service Worker registered: ",
+                            registration
+                        );
+                    })
+                    .catch((registrationError) => {
+                        console.error(
+                            "Service Worker registration failed: ",
+                            registrationError
+                        );
+                    });
+            });
+        }
+    </script>
+    <script href="./index.js"></script>
+</html>
