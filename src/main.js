@@ -40,6 +40,7 @@ function addTodo(e) {
     todoDiv.appendChild(trashButton);
     //attach final Todo
     todoList.appendChild(todoDiv);
+    // this is a comment
 }
 
 function deleteTodo(e) {
