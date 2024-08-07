@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == "production";
 const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
-    entry: "./src/index.js",
+    entry: "./src/main.js",
     output: {
         path: path.resolve(__dirname, "dist"),
     },
@@ -52,6 +52,16 @@ const config = {
             {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
                 type: "asset",
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["@babel/preset-env"],
+                    },
+                },
             },
 
             // Add your rules for custom modules here
