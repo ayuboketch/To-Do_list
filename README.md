@@ -1,11 +1,11 @@
 <img width="1680" alt="Screenshot 2024-08-07 at 19 10 49" src="https://github.com/user-attachments/assets/60871165-5287-415d-a0b1-9c9d7da89b60">
-<img width="1680" alt="Screenshot 2024-08-07 at 19 10 56" src="https://github.com/user-attachments/assets/b6927828-cfd6-4389-a479-467fea84e861">
 
 # 🚀 Welcome to your new awesome project!
 
 # To-Do List Project
 
 🚀 Welcome to your new awesome project!
+<img width="1680" alt="Screenshot 2024-08-07 at 19 10 56" src="https://github.com/user-attachments/assets/b6927828-cfd6-4389-a479-467fea84e861">
 
 This project has been created using **webpack-cli**, you can now run:
 
