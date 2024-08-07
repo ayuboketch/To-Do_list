@@ -20,13 +20,13 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "src/landing page.html"),
-            filename: "landing page.html",
+            template: path.resolve(__dirname, "src/index.html"),
+            filename: "index.html",
         }),
         new HtmlWebpackPlugin({
             template: "./src/main.html",
             inject: true,
-            chunks: ["landing page"],
+            chunks: ["index page"],
             filename: "main.html",
         }),
         new MiniCssExtractPlugin({
