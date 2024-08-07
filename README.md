@@ -4,7 +4,8 @@
 
 # To-Do List Project
 
-🚀 Welcome to your new awesome project!
+🚀 Welcome to my new awesome project!
+
 <img width="1680" alt="Screenshot 2024-08-07 at 19 10 56" src="https://github.com/user-attachments/assets/b6927828-cfd6-4389-a479-467fea84e861">
 
 This project has been created using **webpack-cli**, you can now run:
